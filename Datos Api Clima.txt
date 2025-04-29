@@ -1,0 +1,8 @@
+API-KEY CLIMA= 64118fc7883e7c90992746a70b825413
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+
+https://api.openweathermap.org/data/2.5/weather?q=Londres&appid=64118fc7883e7c90992746a70b825413
+
