@@ -47,9 +47,12 @@ export const WeatherApp = () => {
         {weatherData && (
           <div>
             <h2>{weatherData.name}, {weatherData.sys.country}</h2>
-            <p>Temperatura: {Math.round(weatherData.main.temp - difKelvin)}°C</p>
+            <p>Temperatura: {Math.round(weatherData.main.temp - difKelvin)}°C.</p>
             <p>{weatherData.weather[0].description}</p>
-            <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt={weatherData.weather[0].description}/>
+            <img 
+            src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} 
+            alt={weatherData.weather[0].description}
+            />
           </div>
 
 
