@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './WeatherApp.css'
 
+
+
 export const WeatherApp = () => {
 
     const [city, setCity] = useState('')
@@ -30,6 +32,9 @@ export const WeatherApp = () => {
         event.preventDefault()
         fetchWeatherData()
     }
+
+   
+    
 
   return (
     <div className="container box-app">
