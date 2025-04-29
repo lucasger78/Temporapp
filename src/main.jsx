@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { WeatherApp } from './WeatherApp'
+import { WeatherApp } from './weatherApp'
 import './style.css'
 
 
