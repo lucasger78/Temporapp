@@ -9,7 +9,7 @@ export const WeatherApp = () => {
     const [weatherData, setWeatherData] = useState(null)
 
     const urlBase = "https://api.openweathermap.org/data/2.5/weather"
-    const API_KEY = '64118fc7883e7c90992746a70b825413'
+    const API_KEY = 'YOUR_API_KEY'
     const difKelvin = 273.15
 
     const fetchWeatherData = async () => {
@@ -19,7 +19,7 @@ export const WeatherApp = () => {
         // console.log(data)
         setWeatherData(data)
       }catch(error){
-        console.error('Hubo un error', error, 'Verifica la ciudad o inténtalo mas tarde')
+        console.error('Hubo un error!', error, 'Verifica la ciudad o inténtalo mas tarde')
       }
     }
 
